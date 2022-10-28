@@ -177,7 +177,7 @@
 					
 					<div class="form-check form-check-inline">
 						<input class="form-check-input" type="radio" value="대전"
-							name="company_local" id="flexRadioDefault6"> <label
+							name="company_local" id="flexRadioDefault6" <c:if test="${param.company_local eq '대전'}">checked="checked"</c:if>> <label
 							class="form-check-label" for="flexRadioDefault6"> 대전 </label>
 					</div>
 					<div class="form-check form-check-inline">
@@ -192,18 +192,18 @@
 					</div>
 					<div class="form-check form-check-inline">
 						<input class="form-check-input" type="radio" value="경기도"
-							name="company_local" id="flexRadioDefault9"> <label
-							class="form-check-label" for="flexRadioDefault9"> 경기도 </label>
+							name="company_local" id="flexRadioDefault9"  <c:if test="${param.company_local eq '경기도'}">checked="checked"</c:if>>
+							 <label	class="form-check-label" for="flexRadioDefault9"> 경기도 </label>
 					</div>
 					<div class="form-check form-check-inline">
 						<input class="form-check-input" type="radio" value="강원도"
-							name="company_local" id="flexRadioDefault10"> <label
-							class="form-check-label" for="flexRadioDefault10"> 강원도 </label>
+							name="company_local" id="flexRadioDefault10"  <c:if test="${param.company_local eq '강원도'}">checked="checked"</c:if> > 
+							<label class="form-check-label" for="flexRadioDefault10"> 강원도 </label>
 					</div>
 					<div class="form-check form-check-inline">
 						<input class="form-check-input" type="radio" value="충청도"
-							name="company_local" id="flexRadioDefault11"> <label
-							class="form-check-label" for="flexRadioDefault11"> 충청도 </label>
+							name="company_local" id="flexRadioDefault11" <c:if test="${param.company_local eq '충청도'}">checked="checked"</c:if>> 
+							<label class="form-check-label" for="flexRadioDefault11"> 충청도 </label>
 					</div>
 					<div class="form-check form-check-inline">
 						<input class="form-check-input" type="radio" value="전라도"
@@ -588,6 +588,11 @@ $(document).ready(function(){
 	});
 	
 	});
+</script>
+
+<script type="text/javascript">
+
+
 </script>
 
 
