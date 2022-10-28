@@ -452,11 +452,7 @@ $(window).ready(function(){
 	
 	
 	//현재날짜 계산해서 이전 날짜는 alert창 띄우기
-<<<<<<< HEAD
 	$('#result1').on('click', function(){
-=======
- 	$('#result1').on('click', function(){
->>>>>>> branch 'develop' of https://github.com/SeryLee/sdam-sdam.git
 	 	
 		var today = new Date();
 	
@@ -474,11 +470,7 @@ $(window).ready(function(){
 			return false;
 		}
 		// 			
-<<<<<<< HEAD
-	});
-=======
 	}); 
->>>>>>> branch 'develop' of https://github.com/SeryLee/sdam-sdam.git
    
 });
 
