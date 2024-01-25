@@ -1,6 +1,10 @@
 ## 🐶 쓰담쓰담 (sdamsdam)
 <br>
 
+![1_메인](https://github.com/whydontw/tinyFarm/assets/101682578/3b6d711a-a49a-429b-a84f-f01e68aaa63e)
+
+<br>
+
 **`프로젝트명`** 쓰담쓰담 (sdamsdam)
 
 **`개발기간`** 22.06.30 ~ 22.10.31
